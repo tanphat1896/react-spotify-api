@@ -1,5 +1,5 @@
 import { debounce } from "lodash";
-import { useCallback, useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { authContext } from "./AuthProvider";
 
 function useSearch(query) {
@@ -21,9 +21,10 @@ function useSearch(query) {
       });
   }
 
-  const searchDeb = useCallback(() => debounce((query, token) => search(query, token), 500), [])();
+  const { current: searchDeb } = useRef(debounce((query, token) => search(query, token), 500));
 
   useEffect(() => {
+    if (!query || !token) return;
     searchDeb(query, token);
   }, [query, token, searchDeb]);
 

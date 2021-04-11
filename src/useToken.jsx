@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { authContext } from "./AuthProvider";
 
 const scopes = "streaming user-read-email user-read-private user-read-playback-state user-modify-playback-state";
-const uri = "http://localhost:3000";
+const uri = process.env.REACT_APP_REDIRECT_URI;
 
 function useToken(clientId, secret) {
   const [code, setCode] = useState("");

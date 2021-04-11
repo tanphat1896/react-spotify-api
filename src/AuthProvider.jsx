@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export const authContext = React.createContext({
-  token: null,
+  token: "",
   setToken: () => {},
 });
 
