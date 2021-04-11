@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-spotify-api/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/react-spotify-api/static/js/main.ba718391.chunk.js",
+    "main.js.map": "/react-spotify-api/static/js/main.ba718391.chunk.js.map",
+    "runtime-main.js": "/react-spotify-api/static/js/runtime-main.2f2c2a82.js",
+    "runtime-main.js.map": "/react-spotify-api/static/js/runtime-main.2f2c2a82.js.map",
+    "static/js/2.b37715bf.chunk.js": "/react-spotify-api/static/js/2.b37715bf.chunk.js",
+    "static/js/2.b37715bf.chunk.js.map": "/react-spotify-api/static/js/2.b37715bf.chunk.js.map",
+    "static/js/3.d8e42040.chunk.js": "/react-spotify-api/static/js/3.d8e42040.chunk.js",
+    "static/js/3.d8e42040.chunk.js.map": "/react-spotify-api/static/js/3.d8e42040.chunk.js.map",
+    "index.html": "/react-spotify-api/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/react-spotify-api/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.b37715bf.chunk.js.LICENSE.txt": "/react-spotify-api/static/js/2.b37715bf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f2c2a82.js",
+    "static/js/2.b37715bf.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.ba718391.chunk.js"
+  ]
+}
