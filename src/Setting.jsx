@@ -4,8 +4,8 @@ import { authContext } from "./AuthProvider";
 import useToken from "./useToken";
 
 function Setting({ show, setShow }) {
-  const [clientId, setClientId] = useState(id);
-  const [secret, setSecret] = useState(sec);
+  const [clientId, setClientId] = useState("");
+  const [secret, setSecret] = useState("");
   const { token } = useContext(authContext);
   const [code, login] = useToken(clientId, secret);
 
